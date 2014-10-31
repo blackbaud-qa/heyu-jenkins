@@ -1,4 +1,5 @@
 #!/bin/bash
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 export TERM=xterm
 # we have to cd into the bin directory
 cd /home/convio/Documents/heyu-jenkins/bin
@@ -22,5 +23,5 @@ cmd="timelimit -t$run_for -T$run_for $watch_cmd"
 $cmd
 
 # after it finishes, we need to turn off the lights
-turn_off="heyu off a2"
+turn_off="/usr/local/bin/heyu off a2"
 $turn_off

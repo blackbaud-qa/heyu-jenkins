@@ -17,5 +17,5 @@ failed = false
 end
 
 status = failed ? 'on' : 'off'
-`heyu #{status} a2`
+`/usr/local/bin/heyu #{status} a2`
 
