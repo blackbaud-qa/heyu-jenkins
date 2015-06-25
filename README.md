@@ -37,4 +37,11 @@ Play Around with Heyu
   heyu off a1
 ```
 
+config.yml
+```
+username: USERNAME
+password: PASSWORD
+view: /view/Organizational Entities/view/Organizations (EXAMPLE)
+```
+
 We run the smoke.sh script every day at 8:00 am
